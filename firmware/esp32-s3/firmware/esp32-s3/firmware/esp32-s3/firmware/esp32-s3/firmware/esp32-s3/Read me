@@ -1,0 +1,4 @@
+firmware/
+└── esp32-s3/
+    ├── README.md
+    └── solaris_secure_esp32s3.ino
