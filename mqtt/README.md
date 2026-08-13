@@ -1,0 +1,39 @@
+# Solaris Lillypad MQTT
+
+Broker MQTT usado para comunicação com os dispositivos ESP32-S3.
+
+## Produção
+
+- Porta: 8883
+- Protocolo: MQTT sobre TLS
+- Anonymous access: desabilitado
+- Cada dispositivo deve possuir credenciais próprias.
+- O certificado CA público pode ser distribuído ao firmware.
+- Chaves privadas nunca devem entrar no GitHub.
+
+## Tópicos
+
+Telemetry:
+
+solaris/v3/telemetry
+
+Commands:
+
+solaris/v3/command
+
+Status:
+
+solaris/v3/status
+
+## Segurança
+
+Não armazenar neste repositório:
+
+- senha MQTT
+- private key
+- server.key
+- certificados privados
+- tokens
+- API keys
+
+Esses valores serão configurados posteriormente como secrets.
