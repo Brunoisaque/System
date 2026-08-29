@@ -1,6 +1,6 @@
 # Solaris Lillypad — ESP32-S3
 
-Firmware embarcado do projeto.
+Firmware embarcado do projeto Solaris Lillypad.
 
 ## Funções
 
@@ -11,6 +11,25 @@ Firmware embarcado do projeto.
 - BLE
 - OTA seguro
 
+## Sensores planejados
+
+- AHT20/AHT21
+- BME280
+- MAX30102
+- IMU
+- luminosidade
+- bateria
+
 ## Segurança
 
-Credenciais e chaves privadas não devem ser armazenadas neste repositório.
+Nenhuma senha, token, chave privada ou certificado privado deve ser armazenado neste repositório.
+
+O firmware de produção deverá utilizar:
+
+- MQTT sobre TLS
+- autenticação por dispositivo
+- HTTPS para OTA
+- firmware assinado
+- rollback
+- Secure Boot
+- Flash Encryption
