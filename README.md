@@ -4,10 +4,15 @@ Plataforma experimental de IoT: ESP32-S3 coleta sensores e envia telemetria via 
 
 ## Estrutura
 
-- `firmware/esp32-s3/` — firmware Arduino/ESP-IDF
+- `firmware/esp32-s3/src/` — código-fonte Arduino
+- `firmware/esp32-s3/bin/` — binários e zips de release
 - `mqtt/` — configuração do broker e tópicos
 - `docs/` — arquitetura
 - `api/` — API central (a ser implementada)
+
+## Versão atual
+
+v0.2.0 — ver `CHANGELOG.md`
 
 ## Segurança
 
